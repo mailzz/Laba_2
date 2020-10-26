@@ -27,7 +27,7 @@ function summ(First, Second) {
 }
 
 function Array() {
-    let Array = [30, 20, 15, "Кто-то", "Что-тоr", 100, "Прифф", 5, 90];
+    let Array = [30, 20, 15, "Кто-то", "Что-то", 100, "Прифф", 5, 90];
     console.log('Начальный массив: ');
     console.log(Array);
     let NewArray = Array.map((value) =>isNaN(value) ? value = 0 : value = value*value )
